@@ -21,6 +21,7 @@ module.exports = () => {
 
   require("../api/routes/tarefas")(app);
   require("../api/routes/versao")(app);
+  require("../api/routes/ping")(app);
 
   return app;
 };
