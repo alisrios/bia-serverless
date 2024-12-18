@@ -62,6 +62,7 @@ Resources:
             Method: delete
       Environment:
         Variables:
+          DB_NAME: bia
           DB_USER: postgres
           DB_PWD: postgres
           DB_HOST: bia-db.c9qkwqag6uxj.us-east-1.rds.amazonaws.com

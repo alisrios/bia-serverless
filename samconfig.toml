@@ -20,6 +20,7 @@ s3_prefix = "bia-serverless"
 region = "us-east-1"
 profile = "bia-serverless"
 image_repositories = []
+disable_rollback = true
 
 [default.package.parameters]
 resolve_s3 = true
